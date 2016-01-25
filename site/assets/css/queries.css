@@ -205,10 +205,10 @@
         padding-bottom: 10px;
     }
     .navbar-header{
-        height: 65px;
+        height: 66px;
     }
     .navbar-toggle {
-        margin-top: 11px;
+        margin-top: 19px;
     }
     .navbar-brand{
         padding:12px;
@@ -225,7 +225,7 @@
         top:3px;
     }
     .page-container {
-        margin: 0 13px;
+        margin: 0;
     }
 }
 
