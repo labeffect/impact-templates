@@ -343,6 +343,7 @@ hr {
 	-webkit-transition: all 0.3s ease;
 	/* transition: all 0.3s ease; */
 	-webkit-transform: translateZ(0);
+	background: none repeat scroll 0 0 #101010;
 }
 
 .scroll-header {
