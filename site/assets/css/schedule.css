@@ -24,7 +24,7 @@
 
 .tabs nav ul li {
 	border-bottom:medium none;
-	background:#212739;
+	background:#1E1E1E;
 	display: block;
 	float: left;
 	position: relative;
@@ -37,7 +37,7 @@
 }
 
 .tabs nav ul li :hover {
-    background: #1bd982;
+    background: #0F6B3E;
     -moz-transition: all 0.2s ease-in-out 0.2s;
     -o-transition: all 0.2s ease-in-out 0.2s;
     -webkit-transition: all 0.2s ease-in-out 0.2s;
@@ -46,7 +46,7 @@
 
 .tabs nav li.tab-current {
 
-	background:#1bd982;
+	background:#0F6B3E;
 }
 
 .tabs nav a {

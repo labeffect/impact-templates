@@ -186,7 +186,7 @@ p {
 
 hr {
 	width: 8%;
-	border: solid 1px #1bd982;
+	border: solid 1px #0F6B3E;
 	margin-top:18px;
 	margin-bottom:25px;
 }
@@ -201,7 +201,6 @@ hr {
 /****************************/
 
 #sec_1 {
-	background: url("../img/bg_pattern.png") repeat scroll 0 0 rgba(33, 39, 57, 0.5);
 	position: relative;
 	overflow: hidden;
 }
@@ -275,7 +274,7 @@ hr {
 }
 
 #title_hr {
-	border: 1px solid #1bd982;
+	border: 1px solid #0F6B3E;
 	margin: 1.8em auto 2.9em;
 	width: 50px;
 }
@@ -346,7 +345,7 @@ hr {
 }
 
 .scroll-header {
-	background: none repeat scroll 0 0 #0f1726;
+	background: none repeat scroll 0 0 #1E1E1E;
 }
 
 #example-navbar-collapse {
@@ -427,7 +426,10 @@ hr {
 .navbar-brand {
 	height:100%;
 }
-
+.navbar-brand img{
+	position: absolute;
+    top: 3px;
+}
 #bs-navbar-collapse {
 	float: right;
 }
@@ -459,7 +461,7 @@ h1.arrow {
 .icon {
 	font-family: 'Raleway';
 	display: block;
-	color: #1bce7c;
+	color: #0F6B3E;
 	font-size: 5em;
 	text-align: center;
 	vertical-align: middle;
@@ -476,7 +478,7 @@ h1.arrow {
 }
 
 .features h2 {
-	color: #1bce7c;
+	color: #0F6B3E;
 	font-size: 1.2em;
     font-weight: 600;
 	letter-spacing: 0.2em;
@@ -485,7 +487,7 @@ h1.arrow {
 }
 
 .features {
-	background: rgba(33, 39, 57, 1);
+	background: #1E1E1E;
 }
 
 .grid figure img {
@@ -535,7 +537,7 @@ figure.vimeo-video{
 }
 
 .block-hover:hover {
-	background:none repeat scroll 0 0 rgb(27, 217, 130);
+	background:none repeat scroll 0 0 #0F6B3E;
 	-webkit-transition: all .6s ;
 	-moz-transition: all .6s ;
 	-o-transition: all .6s ;
@@ -588,7 +590,7 @@ figure.vimeo-video{
     top: 10px;
 }
 .team {
-	background-color: #212739;
+	background-color: #1E1E1E;
 }
 
 .speakers-wrap {
@@ -617,7 +619,7 @@ ul.social-buttons li:last-child {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-o-border-radius: 50%;
-	background: #212739;
+	background: #1E1E1E;
 	display: inline-block;
 	color: #fff;
 	line-height: 46px;
@@ -631,7 +633,7 @@ ul.social-buttons li:last-child {
 
 .social-btn:hover,
 .social-btn:focus {
-	background: #1bce7c;
+	background: #0F6B3E;
 	color: #fff;
 }
 
@@ -654,7 +656,7 @@ blockquote p{
 }
 
 .team h2 {
-	color: #1bce7c;
+	color: #0F6B3E;
     font-size: 1.2em;
     font-weight: 600;
     letter-spacing: 0.2em;
@@ -706,7 +708,7 @@ blockquote p{
 }
 
 .sp-dsc blockquote {
-	border-left-color: #1bce7c;
+	border-left-color: #0F6B3E;
 }
 
 div.avatar {
@@ -745,7 +747,7 @@ div.avatar {
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	font-size: 0.8em;
-	color: #1bce7c;
+	color: #0F6B3E;
 }
 
 .sp-dsc {
@@ -771,7 +773,7 @@ div.avatar {
 /*********************/
 
 .btn-effect {
-	background: none repeat scroll 0 0 #1bd982;
+	background: none repeat scroll 0 0 #0F6B3E;
 	border: medium none;
 	color: #fff;
 	letter-spacing: 0.2em;
@@ -810,7 +812,7 @@ div.avatar {
 }
 
 #get_directions.btn-effect {
-	background: none repeat scroll 0 0 #1bd982;
+	background: none repeat scroll 0 0 #0F6B3E;
     border: medium none;
     color: #fff;
     cursor: pointer;
@@ -882,7 +884,7 @@ div.avatar {
     text-transform: none;
 }
 .a-name {
-	color: #212739;
+	color: #1E1E1E;
 	text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: 6px;
@@ -890,7 +892,7 @@ div.avatar {
 }
 
 .day {
-    color: #1bce7c;
+    color: #0F6B3E;
     font-size: 1.1em;
     font-weight: 600;
     letter-spacing: 0.2em;
@@ -913,7 +915,7 @@ div.avatar {
 	background: url("../img/arrow.png") no-repeat scroll right 0 top -80px rgba(0, 0, 0, 0);
 	border-top: 1px solid rgba(33, 39, 57, 0.15);
     box-sizing: border-box;
-    color: #212739;
+    color: #1E1E1E;
     cursor: pointer;
     display: inline-block;
     float: left;
@@ -929,7 +931,7 @@ div.avatar {
 .accordion .item .heading .time {
 	border-top: 4px solid rgba(33, 39, 57, 0.15);
     box-sizing: border-box;
-    color: #1bd982;
+    color: #0F6B3E;
     cursor: pointer;
     display: inline-block;
     float: left;
@@ -948,7 +950,7 @@ div.avatar {
 }
 
 .accordion .item.open .time {
-	color: #1bd982;
+	color: #0F6B3E;
 }
 
 .accordion .item.open .heading .e-title {
@@ -965,7 +967,7 @@ div.avatar {
 
 .details {
 	padding: 20px 0px 20px 0px;
-	border-top: dotted 1px #1bd982;
+	border-top: dotted 1px #0F6B3E;
 }
 
 .venue {
@@ -999,14 +1001,14 @@ div.avatar {
 }
 
 .d-sch:hover{
-	color: #1bd982;
+	color: #0F6B3E;
 }
 .fb:hover{
-	color: #1bd982;
+	color: #0F6B3E;
 }
 
 .accordion .item.open .e-title {
-    color: #1bd982;
+    color: #0F6B3E;
 }
 
 .container-schedule {
@@ -1056,14 +1058,14 @@ div.avatar {
 
 .down-arrow-btn:hover, .down-arrow-btn:focus {
 	color: #fff;
-	background: rgba(27, 217, 130, 1);
+	background: #0F6B3E;
 }
 
 .nl-form {
 	width: 100%;
 	margin: 6% auto;
 	font-size: 2.5em;
-	color: #ffffff;
+	color: #5A5A5A;
 	line-height: 1.9;
 	text-align: center;
 	letter-spacing: 1px;
@@ -1094,7 +1096,7 @@ div.avatar {
 .nl-field-toggle, .nl-form input, .nl-form select {
 	line-height: inherit;
 	display: inline-block;
-	color: #1bd982;
+	color: #0F6B3E;
 	cursor: pointer;
 	border-bottom: 1px dashed #567a69;
 }
@@ -1119,7 +1121,7 @@ div.avatar {
 }
 
 .nl-form .nl-submit {
-	 background: none repeat scroll 0 0 #1bd982;
+	 background: none repeat scroll 0 0 #0F6B3E;
     color: #fff;
     cursor: pointer;
     font-size: 0.4em;
@@ -1215,7 +1217,7 @@ div.avatar {
 	font-variant: normal;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
-	color: #1bce7c;
+	color: #0F6B3E;
 }
 
 .nl-ti-text ul {
@@ -1272,11 +1274,9 @@ a {
 
 .tc {
 
-	margin-bottom: 6%;
-	color: #fff;
+	margin-bottom: 6%;color: #5A5A5A;
 	font-size: 14px;
-	letter-spacing: 1px;
-}
+	letter-spacing: 1px;}
 
 .md-modal {
 	position: fixed;
@@ -1335,7 +1335,7 @@ a {
 .md-content h3 {
 	margin: 0;
 	text-align: center;
-	color: #1bce7c;
+	color: #0F6B3E;
     font-size: 1.3em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -1385,7 +1385,7 @@ a {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
-	color: #1bd982;
+	color: #0F6B3E;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -1446,7 +1446,7 @@ a {
 }
 
 .planContainer .title h2 {
-	background-color: #212739;
+	background-color: #1E1E1E;
     color: #ffffff;
     font-size: 3em;
     font-weight: 600;
@@ -1455,25 +1455,25 @@ a {
 }
 
 .planContainer .title h2.bestPlanTitle {
-	background: #1bd982;
-	color: #212639;
+	background: #0F6B3E;
+	color: #131313;
 }
 
 .planContainer .price p {
-	background: none repeat scroll 0 0 #2a3049;
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: 500;
-    height: 2.6em;
-    letter-spacing: 3px;
-    line-height: 2.6em;
-    margin: 0 0 1em;
-    text-transform: uppercase;
+	background: none repeat scroll 0 0 #353535;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 500;
+	height: 2.6em;
+	letter-spacing: 3px;
+	line-height: 2.6em;
+	margin: 0 0 1em;
+	text-transform: uppercase;
 }
 
 .planContainer .price p.bestPlanPrice {
-	background: #1ee68a;
-	color: #212639;
+	background: #2C9260;
+	color: #1e1e1e;
 }
 
 .planContainer .options {
@@ -1489,7 +1489,7 @@ a {
 .planContainer .button a {
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #212739;
+	color: #1E1E1E;
 	font-weight: 700;
 	line-height: 2.6em;
 	display: inline-block;
@@ -1499,9 +1499,8 @@ a {
 }
 
 .planContainer .button a.bestPlanButton {
-	color: #212639;
-	background: #1bd982;
-
+	color: #1e1e1e;
+	background: #0F6B3E;
 }
 
 ul.planContainer li.title {
@@ -1543,7 +1542,7 @@ ul.planContainer li.title {
 	display: block;
 	position: absolute;
 	z-index: 20;
-	background: rgba(27, 217, 130, 1);
+	background: #0F6B3E;
 	overflow: hidden;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -1716,12 +1715,12 @@ ul.planContainer {
 }
 
 .planContainer .button a:hover {
-	background: #212739;
+	background: #1E1E1E;
 	color: #fff;
 }
 
 .planContainer a.bestPlanButton:hover {
-	background: #1BCE7C;
+	background: #0F6B3E;
 	color: #fff;
 }
 
@@ -1793,7 +1792,7 @@ ul.planContainer {
 	background: none;
     border: medium none;
     border-radius: 0;
-    color: #1bce7c;
+    color: #0F6B3E;
     font-size: 16px;
     font-weight: 600;
     height: 35px;
@@ -1825,7 +1824,7 @@ ul.planContainer {
 
 	background:none;
 	border: none;
-	color: #1bce7c;
+	color: #0F6B3E;
 
 }
 
@@ -1833,7 +1832,7 @@ ul.planContainer {
 	outline:0 none;
 	border:0 none;
 	background:none;
-	color: #1bce7c;
+	color: #0F6B3E;
 }
 
 .subscribe button span {
@@ -1885,7 +1884,7 @@ ul.planContainer {
 	
 }
 .notify-success #message {
-    color: #1bce7c;
+    color: #0F6B3E;
     font-size: 1.1em;
     margin-top: 10px;
 	text-transform:capitalize;
@@ -1916,7 +1915,7 @@ ul.planContainer {
 
 
 #result .success{
-    color: #1bce7c;
+    color: #0F6B3E;
     font-size: 0.43em;
 	text-transform:capitalize;
 	position: absolute; 
@@ -1928,7 +1927,7 @@ ul.planContainer {
 }
 
 .success{
-	color: #1bce7c;
+	color: #0F6B3E;
 	text-align: center;
 	left: 0px;
 	margin-top: 15px;
@@ -1978,7 +1977,7 @@ ul.planContainer {
 }
 
 .contact-details h2 span {
-	color: #1bce7c;
+	color: #0F6B3E;
     display: block;
     font-size: 0.8em;
     font-weight: 600;
@@ -1988,7 +1987,7 @@ ul.planContainer {
 }
 
 .contact-wrap {
-	background-color: #212739;
+	background-color: #1E1E1E;
 	position: relative;
 }
 
@@ -2012,16 +2011,16 @@ ul.planContainer {
 }
 
 .light-box {
-	-webkit-box-shadow: 0px -1px 0px 0px #1bce7c;
-	-moz-box-shadow: 0px -1px 0px 0px #1bce7c;
-	box-shadow: 0px -1px 0px 0px #1bce7c;
+	-webkit-box-shadow: 0px -1px 0px 0px #0F6B3E;
+	-moz-box-shadow: 0px -1px 0px 0px #0F6B3E;
+	box-shadow: 0px -1px 0px 0px #0F6B3E;
 	padding: 20px 0;
 }
 
 .light-box:hover, .light-box:focus {
-	-webkit-box-shadow: 0px 5px 0px 0px #1bce7c;
-	-moz-box-shadow: 0px 5px 0px 0px #1bce7c;
-	box-shadow: 0px 5px 0px 0px #1bce7c;
+	-webkit-box-shadow: 0px 5px 0px 0px #0F6B3E;
+	-moz-box-shadow: 0px 5px 0px 0px #0F6B3E;
+	box-shadow: 0px 5px 0px 0px #0F6B3E;
 }
 
 .box-hover {
