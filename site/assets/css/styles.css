@@ -2046,7 +2046,7 @@ footer a {
 }
 
 footer {
-	background-color: #000;
+	background-color: #101010;
 	padding: 25px 0;
 }
 
@@ -2116,10 +2116,10 @@ ul.legals li:last-child::after {
 	text-align: center;
 	vertical-align: middle;
 }
- .faqHeader {
-	 font-size: 27px;
-	 margin: 20px;
- }
+.faqHeader {
+	font-size: 27px;
+	margin: 20px;
+}
 
 .panel-heading [data-toggle="collapse"]:after {
 	float: right;
