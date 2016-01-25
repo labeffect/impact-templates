@@ -222,6 +222,7 @@
     }
     .navbar-default .navbar-brand img{
         left: -5px;
+        top:3px;
     }
     .page-container {
         margin: 0 13px;
