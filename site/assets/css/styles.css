@@ -333,7 +333,6 @@ hr {
 .scroll-header {
 	background: none repeat scroll 0 0 #0f1726;
 }
-
 .header {
 	width: 100%;
 	position: fixed;
@@ -341,11 +340,9 @@ hr {
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
-	/* transition: all 0.3s ease; */
+	transition: all 0.3s ease;
 	-webkit-transform: translateZ(0);
-	background: none repeat scroll 0 0 #101010;
 }
-
 .scroll-header {
 	background: none repeat scroll 0 0 #101010;
 }
@@ -381,8 +378,6 @@ hr {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-	border-color: rgb(46, 62, 79);
-	border-top: 1px solid rgb(46, 62, 79);
 }
 
 .navbar-toggle {
@@ -2102,9 +2097,6 @@ ul.legals li:last-child::after {
 /** Custom **/
 /***********************************/
 .page-container{
-	margin:0 70px;
-	padding-top: 76px;
-	background:#35353A;
 }
 #page-header,
 #page-header .valign-container{
@@ -2174,4 +2166,4 @@ ul.legals li:last-child::after {
 		padding-top: 12px;
 		padding-bottom: 12px;
 	}
-}
+}                                                                          
