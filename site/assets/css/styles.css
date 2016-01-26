@@ -2125,6 +2125,10 @@ ul.legals li:last-child::after {
 	font-size: 27px;
 	margin: 20px;
 }
+.faqHeader-small {
+	font-size: 18px;
+	margin: 20px;
+}
 
 .panel-heading [data-toggle="collapse"]:after {
 	float: right;
