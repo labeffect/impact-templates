@@ -2103,6 +2103,7 @@ ul.legals li:last-child::after {
 /***********************************/
 .page-container{
 	margin:0 70px;
+	padding-top: 76px;
 }
 #page-header,
 #page-header .valign-container{
