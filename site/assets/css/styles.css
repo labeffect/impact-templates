@@ -2146,6 +2146,12 @@ ul.legals li:last-child::after {
 	transform: rotate(90deg);
 	color: #454444;
 }
+.btn-about {
+	background-color: #0F6B3E !important;
+	color: #ffffff !important;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.16);
+	-webkit-font-smoothing: antialiased;
+}
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
 	.sidebar-nav .navbar .navbar-collapse {
@@ -2166,4 +2172,4 @@ ul.legals li:last-child::after {
 		padding-top: 12px;
 		padding-bottom: 12px;
 	}
-}                                                                          
+}
